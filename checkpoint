@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/rishabh/Daro-Na/cloud/model.tflearn"
+all_model_checkpoint_paths: "/home/rishabh/Daro-Na/cloud/model.tflearn"

@@ -1,0 +1,206 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["hi","hiii","heyy","heyyy","hii", "how are you","about","is anyone there?", "hello", "good day", "whats up","supp","hey","good morning","i need some help", "how can you help me","who are you","Hey can you help me"],
+         "responses": ["This is a *Covid-19-Assistant-Bot* \nAn attempt to provide basic knowledge,symptoms, preventive measures, live status etc on fingertips.\nWe have tried to collect all the information from verified sources and properly cited in our application.\n\nHere are few suggested frequently used keywords:\n*government updates* (For notices by Gov of India)\n*live status* (For India)\n*top headlines*\n*world live status*\n*janata curfew*\n\nReply with *manual* to get more info to use this bot.\n\nCoronavirus:'Be prepared, but don't panic'\n\nDeveloped by:- Rishabh Kr. Mishra\nMentored by:- Nilanjan Dey\nDepartment of Information Technology\nTechno International New Town, Kolkata, India."],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day","bye","stop","quit","byebye","thankyou","thanks","thank you"],
+         "responses": ["We hope this information was helpful.\nHelp us in sharing the correct information about the novel corona virus and put an end to unauthentic informations.\nShare this link with your friends & family,So that they get the correct information."],
+         "context_set": ""
+        },
+        {"tag": "mask",
+         "patterns": ["when to use mask", "how to use mask", "when and how to use mask","how effective is mask","how effective are masks","masks","which mask to use","which kind of masks can be used for corona virus","which kind of masks can be used for coronavirus"],
+         "responses": ["See this video by WHO :- https://youtu.be/Ded_AxFfJoQ"],
+         "context_set": ""
+        },
+        {"tag": "protective measures",
+         "patterns": ["how can i protect myself","how to wash hands","hand wash","how to avoid coronavirus","how to avoid corona","how to avoid covid19","how can i protect myself from covid-19", "how can i protect ", "how can we protect our selves","how to be protected from coronavirus","how to be protected from corona","precautions for coronavirus","precautions","what measures can be taken","safety precautions","what measures can we take to avoid coronavirus","preventive measures","prevention of corona virus","What can we do to prevent the corona virus","How to prevent the corona virus","prevention","prevention of the corona virus","protective measures","protective measures to prevent corona virus","prevention of virus","protection from virus","protection","how to be safe","preventive measures for corona virus"],
+         "responses": ["Here are some precautions you can take:\n\n1.Washing hands frequently with *soap and water* or using an *alcohol based hand sanitizer*\n\n2.Maintain *at least 1 metre (3 feet)* distance between yourself and anyone who is sick.\n\n3. *Avoid touching* eyes, nose and mouth.\n\n4.Make sure you, and the people around you, *follow good respiratory hygiene*.\n\n5. *Covering your mouth and nose* with your bent elbow or tissue when you cough or sneeze. Then dispose of the used tissue immediately.\n\n6. *Avoid going to public areas* if you are sick\n\n7. *Clean surfaces* you touch often\n\n8.If you have difficulty in breathing,fever and cough, seek medical care immediately\n\n9.If possible, *avoid traveling to places*  – especially if you are an older person or have diabetes, heart or lung disease.\n\nFor further information you can see this video by WHO :- https://youtu.be/bPITHEiFWLc "],
+         "context_set": ""
+        },
+        {"tag": "how it effects",
+         "patterns": ["how coronavirus effects", "how is coronavirus effecting people ","how deadly is coronavirus", "how deadly is covid19","how deadly is","how does it effect people","effect of coronavirus","what are the effects of coronavirus","what are its effect","effects of covid19","effects of corona disease"],
+         "responses": ["See this video by WHO :- https://youtu.be/qF42gZVm1Bo "],
+         "context_set": ""
+        },
+        {"tag": "mosquito bites",
+         "patterns": ["can coronavirus spread by mosquito bites", "can it spread by mosquito bites", "can mosquito spread coronavirus","can coronavirus spread beacause of mosquito bite ","can mosquito bite cause corona disease","mosquito and coronavirus"],
+         "responses": ["As of now, there has been no information or evidence to suggest that the new coronavirus could be transmitted by mosquitoes. The new coronavirus is a respiratory virus which spreads primarily through droplets generated when an infected person coughs or sneezes, or through droplets of saliva or discharge from the nose"],
+         "context_set": ""
+        },
+        {"tag": "What is a coronavirus?",
+         "patterns": ["What is a coronavirus?", "coronavirus","corona","corona-virus","what are coronavirus","corona disease"],
+         "responses": ["Coronaviruses are a large family of viruses which may cause illness in animals or humans.  In humans, several coronaviruses are known to cause respiratory infections ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS). The most recently discovered coronavirus causes coronavirus disease COVID-19."],
+         "context_set": ""
+        },
+        {"tag": "medicine",
+         "patterns": ["Are there any specific medicines to prevent or treat the new coronavirus?","corona antidote","coronavirus antidote","is there any antidote for coronavirus","vaccines for coronavirus","what is the medicine for coronavirus", "any medicine for covid-19", "any medicine for coronavirus", "treatment for coronavirus","any treatment for coronavirus","are there any medicines for coronavirus","medicine for covid-19","medicine","medicine to prevent coronavirus"],
+         "responses": ["At present, there is no specific medicine recommended to prevent or treat the new coronavirus (2019-nCoV).\nHowever, those infected with the virus should receive appropriate care to relieve and treat symptoms, and those with severe illness should receive optimized supportive care. Some specific treatments are under investigation, and will be tested through clinical trials. WHO is helping to accelerate research and development efforts with a range or partners."],
+         "context_set": ""
+        },
+        {"tag": "what is covid-19",
+         "patterns": ["what is covid-19", "what is covid19", "covid19","COVID-19"],
+         "responses": ["COVID-19 is the infectious disease caused by the most recently discovered coronavirus. This new virus and disease were unknown before the outbreak began in Wuhan, China, in December 2019."],
+         "context_set": ""
+        },
+        {"tag": "symptoms ",
+         "patterns": ["what are the symptoms of covid19", "syndromes","syndrome","what are the symptoms of covid-19", "what are the symptoms of coronavirus","symptoms","symptoms of coronavirus","what are its symptoms"],
+         "responses": ["The most common symptoms of COVID-19 are \n*Fever*\n*Tiredness*\n*Dry cough*\n*Breathing Difficulties* \n\nSome patients may have aches and pains, nasal congestion, runny nose, sore throat or diarrhea.\n These symptoms are usually mild and begin gradually. Some people become infected but don’t develop any symptoms and don't feel unwell.\n Most people (about 80%) recover from the disease without needing special treatment. Around 1 out of every 6 people who gets COVID-19 becomes seriously ill and develops difficulty breathing.\n Older people, and those with underlying medical problems like high blood pressure, heart problems or diabetes, are more likely to develop serious illness.\n*People with fever, cough and difficulty breathing should seek medical attention.*"],
+         "context_set": ""
+        },
+        {"tag": "spread",
+         "patterns": ["how does covid19 spread", "how does coronavirus spread","how does it spread","how does the virus spread","how can corona transmit ","how can it be transmitted"],
+         "responses": ["People can catch COVID-19 from others who have the virus. The disease can *spread from person to person* through small droplets from the nose or mouth which are spread when a person with COVID-19 coughs or exhales.\n These droplets land on objects and surfaces around the person. Other people then catch COVID-19 by touching these objects or surfaces, then touching their eyes, nose or mouth.\n People can also catch COVID-19 if they breathe in droplets from a person with COVID-19 who coughs out or exhales droplets."],
+         "context_set": ""
+        },
+        {"tag": "air",
+         "patterns": ["can the virus be transmitted through the air", "can coronavirus be transmitted through air","can it spread through air","air and corona","air and coronavirus","corona through air","coronavirus through air"],
+         "responses": ["Studies to date suggest that the virus that causes COVID-19 is mainly transmitted through contact with respiratory droplets rather than through the air.\nYou can see the answer on *“How does COVID-19 spread?”* forfurther information"],
+         "context_set": ""
+        },
+        {"tag": "suspected",
+         "patterns": ["i am feeling sick","treatment for coronavirus","i am not feeling well","how to treat coronavirus" ,"am i affected with coronavirus", "i am suspecting coronavirus","i feel sick is it due to coronavirus","i have fever","i have cough and cold","i am sneezing","i am suspecting that i have corona virus"],
+         "responses": ["The most common symptoms of COVID-19 are *fever, tiredness, and dry cough*.\nSome patients may have aches and pains, nasal congestion, runny nose, sore throat or diarrhea. You should seek medical attention.\nFor any further quesries you can ask for a helpline number by asking *'helpline number'*"],
+         "context_set": ""
+        },
+        {"tag": "who is at severe risk",
+         "patterns": ["who is at more risk","which are the more affected people","who is at risk of developing severe illness","how about old people getting affected","diabetes and coronavirus","cancer and coronavirus","diabetes and covid19","cancer and covid19","am i at risk of getting infected by the corona virus","am i at the risk of getting the COVID-2019","can i get the corona virus?","how likely am i to catch the corona disease?","how likely am i to get infected by the corona virus?"],
+         "responses": ["While we are still learning about how COVID-2019 affects people, *older persons and persons with pre-existing medical conditions* (such as high blood pressure, heart disease, lung disease, cancer or diabetes)  appear to develop serious illness more often than others. "],
+         "context_set": ""
+        },
+        {"tag": "helpline",
+         "patterns": ["helpline number ","help centre number","help centre", "helpline numbers", "helpline", "whom to contact","contact number","medical care number","phone number","contact details"],
+         "responses": ["Central Helpline Number for corona-virus: - +91-11-23978046\n *State wise:-* \n1 Andhra Pradesh 0866-2410978\n2 Arunachal Pradesh 9436055743\n3 Assam 6913347770\n4 Bihar 104\n5 Chhattisgarh 104\n6 Goa 104\n7 Gujarat 104\n8 Haryana 8558893911\n9 Himachal Pradesh 104\n10 Jharkhand 104\n11 Karnataka 104\n12 Kerala 0471-2552056\n13 Madhya Pradesh 0755-2527177\n14 Maharashtra 020-26127394\n15 Manipur 3852411668\n16 Meghalaya 108\n17 Mizoram 102\n18 Nagaland 7005539653\n19 Odisha 9439994859\n20 Punjab 104\n21 Rajasthan 0141-2225624\n22 Sikkim 104\n23 Tamil Nadu 044-29510500\n24 Telangana 104\n25 Tripura 0381-2315879\n26 Uttarakhand 104\n27 Uttar Pradesh 18001805145\n28 West Bengal 1800313444222, 03323412600,\nFor Union Territory reply with *helpline ut* "],
+         "context_set": ""
+        },
+        {"tag": "helpline ut",
+         "patterns": ["helpline in ut","helpline ut","help ut","help in union territory","helpline union territory","Unnion territory helpline number"],
+         "responses": ["1 Andaman and Nicobar Islands 03192-232102\n2 Chandigarh 9779558282\n3 Dadra and Nagar Haveli and Daman & Diu 104\n4 Delhi 011-22307145\n5 Jammu & Kashmir 01912520982, 0194-2440283\n6 Ladakh 01982256462\n7 Lakshadweep 104\n8 Puducherry 104"],
+         "context_set": ""
+        },
+        {"tag": "worry",
+         "patterns": ["should i worry about corona","i have swollen throat","my throat is swollen","swollen throat","should i worry about coronavirus","should i worry about covid-19","should i be worried about coronavirus","should i worry about getting affected by coronavirus","should i worry about getting infected by coronavirus"],
+         "responses": ["Illness due to COVID-19 infection is generally *mild, especially for children and young adults*. However, it can cause serious illness: *about 1 in every 5 people* who catch it need hospital care.\nIt is therefore quite normal for people to worry about the COVID-19 outbreak.\n Instead of worrying about the corona virus we should *take preventive measures*.\n For further information about the preventive measures you can ask 'preventive measures for corona virus'"],
+         "context_set": ""
+        },
+        {"tag": "coronavirus and SARS",
+         "patterns": ["are coronavirus and SARS same","are covid-19 and SARS same"],
+         "responses": ["*NO*.\nSARS was more deadly but much less infectious than COVID-19. There have been no outbreaks of SARS anywhere in the world since 2003."],
+         "context_set": ""
+        },
+        {"tag": "goods",
+         "patterns": ["is it safe to receive a package from any area where COVID-19 has been reported?","can i recieve any package from a coronavirus infected area","can i recieve a package from a coronavirus infected place","can i recieve a package from a COVID-19 infected place","how about recieving package from infected areas"],
+         "responses": ["Yes,it is safe to recieve a package that comes from an affected area as the likelihood of an infected person contaminating commercial goods is low and the risk of catching the virus that causes COVID-19 from a package that has been moved, travelled, and exposed to different conditions and temperature is also low. "],
+         "context_set": ""
+        },
+        {"tag": "traveling",
+         "patterns": ["is it safe to travel","traveling and corona","what are the measures that a person traveling should take ","what are the precautions that travellers should take","is it safe to travel in a coronavirus effected country","is it safe to travel in a covid-19 effected area "],
+         "responses": ["If traveling is necessary, take proper steps and precautions to ensure you travel safe. You can watch this video for further information: \nhttps://youtu.be/0KBvReECRrI"],
+         "context_set": ""
+        },
+        {"tag": "myths climate",
+         "patterns": ["can coronavirus spread in hot weather","can coronavirus spread in humid weather"," can COVID-19 virus can be transmitted in areas with hot and humid climates","can hot and humid weather help in spreading corona virus","hot weather spreads corona virus?"],
+         "responses": ["Yes.From the evidence so far coronavirus can be transmitted in  all areas including hot and humid weather"],
+         "context_set": ""
+        },
+        {"tag": "live",
+         "patterns": ["andhra pradesh","live status state wise","live status","status of ","live status of all states","live update state wise","state wise live update","arunachal pradesh ","assam","bihar","chhattisgarh","goa","gujarat","haryana","himachal pradesh","jammu and kashmir","jharkhand","karnataka","kerala","ladakh","madhya pradesh","maharashtra","manipur","meghalaya","mizoram","nagaland","odisha","punjab","rajasthan","sikkim","tamil nadu","telangana","tripura","uttar pradesh","uttarakhand","west bengal","andaman and nicobar islands","chandigarh","dadra and nagar haveli","daman and diu","lakshadweep","delhi","puducherry","live status of covid19 in india","live status of covid-19 in india","live status of coronavirus in india","live stats of coronavirus in india","coronavirus in india","india dashboard","live status of coronavirus in india","deaths in india due to coronavirus","india","number of death in india","number of affected people in india"],
+         "responses": ["To know about the live stats about coronavirus confirmed cases in India simply reply with *live status in india* or to get about any state replace India with your state name."],
+         "context_set": ""
+        },
+        {"tag": "headline",
+         "patterns": ["headline","headline on coronavirus","headline on covid19","head line","top headlines","highlights","top highlights","news","news on coronavirus","recent updates on coronavirus","highlights on coronavirus"],
+         "responses": ["You can get the lastest NEWS on coronavirus."],
+         "context_set": ""
+        },
+        {"tag": "world_stat",
+         "patterns": ["world affected data","worldmeter","stats","live status of world","live world","world live status","world in coronavirus","world on coronavirus","world counts","death counts","people counts","deaths due to coronavirus in the world","death rate","worldwide stats","number of deaths wordlwide","world stats","wordlwide stats","live status around the globe","live status around the world","world live status","what is the effect of coronavirus globallly","global stats","total affected people","total effected people","update about coronavirus"],
+         "responses": ["You can get the wordlwide data about coronavirus."],
+         "context_set": ""
+        },
+        {"tag": "age_sex",
+         "patterns": ["what is the age-sex ratio of coronavirus affected people","what is the age-sex ratio","age-sex","age","data on deaths due to corona","sex","deaths ratio","ratio"],
+         "responses": ["Death Rate = (number of deaths / number of cases) = probability of dying if infected by the virus (%). This probability differs depending on the age group.\nFor more info visit: https://www.worldometers.info/coronavirus/coronavirus-age-sex-demographics/"],
+         "context_set": ""
+        },
+        {"tag": "country_wise",
+         "patterns": ["country wise report","country wise status","country wise data","what is the condition of ","condition in world","condition in different part of world","country wise detail"],
+         "responses": ["Here you will find all the live stats regarding to coronavirus (COVID-19):-\nhttps://www.worldometers.info/coronavirus/#countries"],
+         "context_set": ""
+        },
+        {"tag": "food",
+         "patterns": ["food safety","should we eat meats","do meats spread coronavirus","food","meat","chicken","can we eat meat"],
+         "responses": ["*Practice Food Safety* \nEven in areas experiencing outbreaks, meat products can be safely consumed if these are coocked throughly and properly handled."],
+         "context_set": ""
+        },
+        {"tag": "countries affected",
+         "patterns": ["affected countries","top affected countries","live status of different countries","countries affected","which countries to avoid traveling","avoid traveling to","which part of world is mostly affected","countries in danger","new deaths"],
+         "responses": ["On top *China* having 80k+ Cases.\n*Itly* having 31k+ Cases.\n*Iran* having 16k+ Cases.\n*Spain* having 9K+ Cases\nFollowed by *Germany*, *S. Korea*, *France*\n , *USA* all having *2-10K* Cases\n\nFor detailed info open this link and scroll down: https://www.worldometers.info/coronavirus/#countries\nOr reply with country name"],
+         "context_set": ""
+        },
+        {"tag": "manual",
+         "patterns": ["manual","help me using this bot","i am  stuck","help me using this chatbot","help me using you"],
+         "responses": ["Anytime you can ask the following questions:-\n\nhow effective is mask\n\nhow to avoid corona\n\nhow deadly is coronavirus\n\ncan mosquito spread coronavirus\n\nWhat is a coronavirus?\n\nany medicine for covid-19\n\nsymptoms\n\nhow does coronavirus spread\n\ncan the virus be transmitted through the air\n\ni am feeling sick\n\nwho is at more risk\n\nhelpline number\n\nwhom to contact\n\nshould i worry about corona\n\nare coronavirus and SARS same\n\nhow about recieving package from infected areas\n\nis it safe to travel\n\ncan coronavirus spread in hot weather\n\nlive status of coronavirus in india\n\ntop headlines\n\nlive status around the globe\n\nwhat is the age-sex ratio of coronavirus affected people\n\ncountry wise report\n\nfood safety\n\nshould we eat meats\n\naffected countries\n"],
+         "context_set": ""
+        },
+        {"tag": "feedback",
+         "patterns": ["how to give feedback","how to give my feedback","how to give some feedback","how to submit feedback","i want to help you","improve you"],
+         "responses": ["Thankyou for supporting us.\nHere is a google form link, you can submit you feedback (you can also share screenshots)there.:- https://forms.gle/A3GfDU8y9Y5NGw7N9"],
+         "context_set": ""
+        },
+        {"tag": "passs",
+         "patterns": ["good","ok","fine","okay","very good","excellent"],
+         "responses": [" "],
+         "context_set": ""
+        },
+        {"tag": "germany",
+         "patterns": ["live status of germany","updates on germany","germany","condition of germany"],
+         "responses": ["*Please click the link to know the details*\nhttps://www.worldometers.info/coronavirus/country/germany/"],
+         "context_set": ""
+        },
+        {"tag": "China",
+         "patterns": ["live status of china","updates on china","china","condition of china"],
+         "responses": ["*Please click the link to know the details*\nhttps://www.worldometers.info/coronavirus/country/china/"],
+         "context_set": ""
+        },
+        {"tag": "italy",
+         "patterns": ["live status of italy","update on italy","italy","condition of italy"],
+         "responses": ["*Please click the link to know the details*\nhttps://www.worldometers.info/coronavirus/country/italy/"],
+         "context_set": ""
+        },
+        {"tag": "iran",
+         "patterns": ["live status of iran","update on iran","iran","condition of iran"],
+         "responses": ["*Please click the link to know the details*\nhttps://www.worldometers.info/coronavirus/country/iran/"],
+         "context_set": ""
+        },
+        {"tag": "Spain",
+         "patterns": ["live status of spain","update on spain","spain","condition of spain"],
+         "responses": ["*Please click the link to know the details*\nhttps://www.worldometers.info/coronavirus/country/spain/"],
+         "context_set": ""
+        },
+        {"tag": "USA",
+         "patterns": ["live status of usa","update on usa","usa","america","condition of usa"],
+         "responses": ["*Please click the link to know the details*\nhttps://www.worldometers.info/coronavirus/country/us/"],
+         "context_set": ""
+        },
+        {"tag": "south korea",
+         "patterns": ["live status of south korea","update on south korea","south korea","condition of south korea"],
+         "responses": ["*Please click the link to know the details*\nhttps://www.worldometers.info/coronavirus/country/south-korea/"],
+         "context_set": ""
+        },
+        {"tag": "Government Advisory",
+         "patterns": ["government advisory","government notices","government advisories","government","government updates","updates by government"],
+         "responses": ["*Please click the link to know the details*\n1. Advisory - Social Distancing -> https://tinyurl.com/uokyxqp \n\n2. Guidelines on Dead Body Management -> https://tinyurl.com/swt8v6o \n\n3. Latest Testing Guidelines of Indian Council of Medical Research (ICMR)\n\nhttps://tinyurl.com/qucrv7p\n\n For more details Visit - https://www.mohfw.gov.in/"],
+         "context_set": ""
+        },
+        {"tag": "Modi message",
+         "patterns": ["janata curfew","janta curfew","modi's message","22 march","22 march curfew","curfew","pm modi on coronavirus","pm modi message","narendra modi","pm modi","message of pm narendra modi"],
+         "responses": ["Please click on the video icon or on the link.\nhttps://www.youtube.com/watch?v=TV4R5dq8qEM\nFor more videos browse this channel."],
+         "context_set": ""
+        }
+
+
+
+]
+}
